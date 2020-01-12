@@ -1,0 +1,432 @@
+<!Doctype html>
+<html lang ="fr-FR">
+   <head>
+      <meta charset="utf-8">
+      <meta name ="viewport" content="width=device-width, initial-scale =1.0">
+      <link rel="stylesheet" type="text/css"  href ="/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Courgette|Oswald&amp;display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>Solaf une solution!!!</title>
+   </head>
+   <body>
+      <main>
+          <header id="hautDePage">
+              <aside class="icon-bar">
+                  <a href="http://www.facebook.com" class="facebook" target="_blank"><i class='fab fa-facebook-f'></i></a>
+                  <a href="http://www.twitter.com" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="http://www.linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="http://www.youtube.com" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+              </aside>
+              <img class="logo" src="img/visa.png">
+              <img class="logo" src="img/drapeau.jpg" width="50" height="50">
+              <ul>
+                  <li class="one"><a href="#hautDePage"><i class="fa fa-fw fa-home" style='font-size:20px;color:rgb(248, 107, 82)'></i> Accueil</a></li>
+                  <li class="two"><a href="#somme"><i class='fas fa-hand-scissors' style='font-size:20px;color: rgb(248, 107, 82)'></i> Qui sommes-nous</a></li>
+                  <li class="three"><a href="#Service"><i class='fas fa-users' style='font-size:20px;color: rgb(248, 107, 82)'></i> Service</a></li>
+                  <li class="four"><a href="#contact"><i class="fa fa-fw fa-envelope" style='font-size:20px;color: rgb(248, 107, 82)'></i> Contact</a></li>
+      
+              </ul>
+      
+              <img src="http://extendthemes.com/mesmerize/demos/demo1/wp-content/uploads/2017/11/abstract-1867838.jpg" width="100%" height="500px">
+              <h1 class="ml1">
+                           <span class="text-wrapper">
+                           <span class="line line1"></span>
+                           <span class="letters">Votre Visa Etudiant En Un Click</span>
+                           <span class="line line2"></span>
+                           </span>
+                        </h1>
+              <h1 class="ml3">Parrainer Un Etudiant?</h1>
+              <script>
+                  var textWrapper = document.querySelector('.ml1 .letters');
+                  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      
+                  anime.timeline({
+                          loop: true
+                      })
+                      .add({
+                          targets: '.ml1 .letter',
+                          scale: [0.3, 1],
+                          opacity: [0, 1],
+                          translateZ: 0,
+                          easing: "easeOutExpo",
+                          duration: 600,
+                          delay: (el, i) => 70 * (i + 1)
+                      }).add({
+                          targets: '.ml1 .line',
+                          scaleX: [0, 1],
+                          opacity: [0.5, 1],
+                          easing: "easeOutExpo",
+                          duration: 700,
+                          offset: '-=875',
+                          delay: (el, i, l) => 80 * (l - i)
+                      }).add({
+                          targets: '.ml1',
+                          opacity: 0,
+                          duration: 1000,
+                          easing: "easeOutExpo",
+                          delay: 1000
+                      });
+              </script>
+      
+              <script>
+                  // Wrap every letter in a span
+                  var textWrapper = document.querySelector('.ml3');
+                  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      
+                  anime.timeline({
+                          loop: true
+                      })
+                      .add({
+                          targets: '.ml3 .letter',
+                          scale: [4, 1],
+                          opacity: [0, 1],
+                          translateZ: 0,
+                          easing: "easeOutExpo",
+                          duration: 950,
+                          delay: (el, i) => 70 * i
+                      }).add({
+                          targets: '.ml3',
+                          opacity: 0,
+                          duration: 1000,
+                          easing: "easeOutExpo",
+                          delay: 1000
+                      });
+              </script>
+      
+              <div class="show" data-aos="fade-right">
+                  <p class="bloc_1">
+                      <img src="img/pib_1.jpg" width="100" height="100" style="border-radius: 50%; display: block;         margin-left: auto; margin-right: auto;">
+                      <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A
+                  </p>
+      
+                  <p class="bloc_2">
+                      <img src="img/pib_2.jpg" width="100" height="100" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+                      <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A
+                  </p>
+                  <p class="bloc_3">
+                      <img src="img/pib_3.jpg" width="100" height="100" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+                      <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A
+                  </p>
+              </div>
+          </header>
+          <section id="social">
+              <span>
+                          <i class='fas fa-baby' style='font-size:80px;color:red'></i>
+                      </span>
+      
+              <button onclick="topFunction()" id="myBtn" title="Go to top">
+                  <i class='fas fa-arrow-circle-up' style='font-size:36px'></i>
+              </button>
+      
+              <script>
+                  var mybutton = document.getElementById("myBtn");
+                  window.onscroll = function() {
+                      scrollFunction()
+                  };
+      
+                  function scrollFunction() {
+                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                          mybutton.style.display = "block";
+                      } else {
+                          mybutton.style.display = "none";
+                      }
+                  }
+      
+                  function topFunction() {
+                      document.body.scrollTop = 0;
+                      document.documentElement.scrollTop = 0;
+                  }
+              </script>
+          </section>
+          <section id="somme" data-aos="fade-up">
+              <h1 class="ml6">
+                        <span class="text-wrapper">
+                            <span class="letters">Qui sommes-nous</span>
+                        </span>
+                     </h1>
+              <script>
+                  var textWrapper = document.querySelector('.ml6 .letters');
+                  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      
+                  anime.timeline({
+                          loop: true
+                      })
+                      .add({
+                          targets: '.ml6 .letter',
+                          translateY: ["1.1em", 0],
+                          translateZ: 0,
+                          duration: 750,
+                          delay: (el, i) => 50 * i
+                      }).add({
+                          targets: '.ml6',
+                          opacity: 0,
+                          duration: 1000,
+                          easing: "easeOutExpo",
+                          delay: 1000
+                      });
+              </script>
+              <article data-aos="fade-right">
+                  <h5>Solaf a été créé en 2019 avec pour mission d'aider 
+                           les etudiants sénégalaise à obtenir un visa en france avec des tarifs hors compétition.<i class='fas fa-asterisk' style='font-size:20px;color:red'></i>
+                       </h5>
+                  <p>Solaf est un cabinet d'accompagenment et de services qui vise à accompagner les étudiants qui ont déjà obtenu une préinscription dans une université française afin d'obtenir un visa étudiant et de les accompagner jusqu'à leur intégration pour un temps déterminé.
+                  </p>
+      
+                  <iframe width="550" height="300" src="https://www.youtube.com/embed/BURRD_nWJh0" frameborder="0" allow="accelerometer;     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+                  </iframe>
+              </article>
+          </section>
+      
+          <span class="fa"><i class='fas fa-baby' style='font-size:80px;color:red; margin-left:600px;; padding-top: 80px;'></i>
+              </span>
+      
+          <section id="Service">
+              <h1 class="ml7">
+                        <span class="text-wrapper">
+                            <span class="letter">Service</span>
+                       </span>
+                      </h1>
+              <script>
+                  var textWrapper = document.querySelector('.ml7 .letter');
+                  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      
+                  anime.timeline({
+                          loop: true
+                      })
+                      .add({
+                          targets: '.ml7 .letter',
+                          translateY: ["1.1em", 0],
+                          translateZ: 0,
+                          duration: 750,
+                          delay: (el, i) => 50 * i
+                      }).add({
+                          targets: '.ml7',
+                          opacity: 0,
+                          duration: 1000,
+                          easing: "easeOutExpo",
+                          delay: 1000
+                      });
+              </script>
+      
+              <article data-aos="fade-right">
+                  <p class="t_1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ab tenetur commodi animi dicta inventore unde. Eaque facere ipsam ullam hic quos delectus tempore eos quas, explicabo molestias quibusdam dolorum?
+                  </p>
+      
+                  <div class="show" data-aos="fade-right">
+                      <p class="bloc_1">
+                          <img src="img/rapidité.jpg" width="100" height="100" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+                          <br>
+                          <strong>Rapidité</strong>
+                          <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A ccusamus vitae quis possimus ut fugiat, porro quibusdam, dolores corrupti amet mollitia minus!
+                      </p>
+      
+                      <p class="bloc_2">
+                          <img src="img/confiance.jpg" width="100" height="100" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+                          <br>
+                          <strong>Confiance</strong>
+                          <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A ccusamus vitae quis possimus ut fugiat, porro quibusdam, dolores corrupti amet mollitia minus!
+                      </p>
+                      <p class="bloc_3">
+                          <img src="img/solidarite.jpg" width="100" height="100" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+                          <br>
+                          <strong>Solidarite</strong>
+                          <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste odit veniam, ducimus magni dolore aliquam maiores dolorem. A ccusamus vitae quis possimus ut fugiat, porro quibusdam, dolores corrupti amet mollitia minus!
+                      </p>
+                  </div>
+              </article>
+              <hr class="hrr" style="width: 550px; height: 5px; background-color: #fff; position: relative; top: 450px; left: 10px;">
+      
+              <article data-aos="fade-right">
+                  <div class="container">
+                      <button class="accordion">ATTESTATION DE PRISE EN CHARGE</button>
+                      <div class="panel">
+                          <p>L’attestation de prise en charge est l’un des documentsque la plupart des étudiants doivent fournir avec le dossier consulaire pour la demande de visa. pour un cout de 150 000fcfa
+                              <br>
+                              <span style="background-color: red; color:#fff;  font-size: 23px; padding: 2px; margin-left: 250px;">150.000fcfa</span>
+                          </p>
+                      </div>
+      
+                      <button class="accordion">ATTESTATION DE LOGEMENT</button>
+                      <div class="panel">
+                          <p>L’attestation d’hébergement est un document justifiant qu’une personne (hébergeur)héberge une autre personne (l’hébergé) pour un cout de 120 000fcfa
+                              <br>
+                              <span class="ln" style="background-color: red; color:#fff; font-size: 23px; padding: 2px; margin-left: 250px;"> 120 000fcfa</span>
+                          </p>
+                      </div>
+      
+                      <button class="accordion">UN SERVICE D'ORIENTATION ET D'ACCCOMPAGNEMENT PERSONNALISÉ</button>
+                      <div class="panel">
+                          <p>
+                              Solaf s'engage a vous aider de maniere personalisé jusqu'a votre intégration en Francesous reserve d'obtenir le visa qui sera entierement gratuit
+                              <br>
+                              <span style="background-color: red; color:#fff; font-size: 23px; padding: 2px; margin-left: 250px;">gratuit</span>
+                          </p>
+                      </div>
+                  </div>
+                  <script>
+                      var acc = document.getElementsByClassName("accordion");
+                      var i;
+      
+                      for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                              this.classList.toggle("active");
+                              var panel = this.nextElementSibling;
+                              if (panel.style.maxHeight) {
+                                  panel.style.maxHeight = null;
+                              } else {
+                                  panel.style.maxHeight = panel.scrollHeight + "px";
+                              }
+                          });
+                      }
+                  </script>
+              </article>
+      
+              <article>
+                  <button class="boutton" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="pilu">Candidater</button>
+      
+                  <div id="id01" class="modal">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <form class="modal-content" enctype="multipart/form-data" method="POST" action='/contact'>
+                          <div class="content">
+                              <h1>Candidater</h1>
+                              <p> veuiller entrer vos information.</p>
+                              <hr>
+                              <label for="nom"><b>Nom/Prenom</b></label>
+                              <input type="text" placeholder="Nom/Prenom" name="name" required>
+      
+                              <label for="phone"><b>Telephone</b></label>
+                              <input type="tel" placeholder="Entrer votre numero de telephone" name="phone" required>
+      
+                              <label for="email"><b>Email</b></label>
+                              <input type="mail" placeholder="Entrer votre email" name="email" required>
+      
+                              <label for="fichier"><b>Entrer l'attestation de préinscription</b></label>
+                              <input type="file" name="filePdf">
+      
+                              <div class="clearfix">
+                                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+                                  <button type="submit" class="signupbtn" style="background-color: rgb(243, 85, 85);">Envoyer</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+      
+                  <script>
+                      var modal = document.getElementById('id01');
+      
+                      window.onclick = function(event) {
+                          if (event.target == modal) {
+                              modal.style.display = "none";
+                          }
+                      }
+                  </script>
+              </article>
+      
+              <article class="parin">
+                  <span id="myBtnn">Parrainer!</span>
+      
+                  <!-- The Modal -->
+                  <div id="myModall" class="modall">
+      
+                      <!-- Modal content -->
+                      <div class="modall-content">
+                          <div class="modall-header">
+                              <span class="clos">&times;</span>
+                              <h2>Vous souhaitez parrainer un étudiant?</h2>
+                          </div>
+                          <div class="modall-body">
+                              <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, incidunt quibusdam unde quis magnam, eaque temporibus voluptatum assumenda optio beatae in blanditiis commodi omnis! Dolorem placeat beatae nobis blanditiis molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                          </div>
+                          <div class="modall-footer">
+                              <p>Appelle-Nous Vite Sur +221 77.500.00.00</p>
+                              <p>Ou Si Vous Désirez Par Mail: ahmadanote@gmail.com</p>
+                          </div>
+                      </div>
+      
+                  </div>
+      
+                  <script>
+                      // Get the modal
+                      var modal = document.getElementById("myModall");
+      
+                      // Get the button that opens the modal
+                      var btn = document.getElementById("myBtnn");
+      
+                      // Get the <span> element that closes the modal
+                      var span = document.getElementsByClassName("clos")[0];
+      
+                      // When the user clicks the button, open the modal 
+                      btn.onclick = function() {
+                          modal.style.display = "block";
+                      }
+      
+                      // When the user clicks on <span> (x), close the modal
+                      span.onclick = function() {
+                          modal.style.display = "none";
+                      }
+      
+                      // When the user clicks anywhere outside of the modal, close it
+                      window.onclick = function(event) {
+                          if (event.target == modal) {
+                              modal.style.display = "none";
+                          }
+                      }
+                  </script>
+              </article>
+      
+          </section>
+      
+          <section id="contact" data-aos="fade-up">
+      
+              <div id="map">
+                  <div class="mapouter">
+                      <div class="gmap_canvas">
+                          <iframe width="608" height="405" id="gmap_canvas" src="https://maps.google.com/maps?q=%20dakar%20&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/ipvanish-coupon/">ipvanish coupon</a></div>
+                      <style>
+                          .mapouter {
+                              position: relative;
+                              text-align: right;
+                              height: 405px;
+                              width: 608px;
+                          }
+                          
+                          .gmap_canvas {
+                              overflow: hidden;
+                              background: none!important;
+                              height: 405px;
+                              width: 608px;
+                          }
+                      </style>
+                  </div>
+              </div>
+              <article>
+                  <h4><i class='fas fa-book-reader' style='font-size:36px; color: rgb(39, 39, 37);'></i>Address: <span  class ="tel">  Sénégal, Dakar</span></h4>
+                  <h4><i class='fas fa-address-book' style='font-size:36px; color: rgb(0, 146, 146);'></i>  Tel: <span  class ="tel">  +221 77 500 00 00</span></h4>
+                  <h4><i class="material-icons" style="font-size:48px; color: rgb(243, 85, 12);">email</i>Email:<span class ="mail"> Padaneamet@hotmail.com</span></h4>
+      
+                  <h5 style="margin-top: 80px; margin-left: 80px; text-decoration: underline;  margin-top: -6px;">En savoir plus</h5>
+                  <p style="font-family: cursive; font-size: 17px; width: 400px; margin-top: -10px; margin-left: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis accusantium consectetur autem nulla impedit iusto at dignissimos exercitationem deleniti possimus vero amet hic maiores, ducimus sequi rerum alias cupiditate. Minus.
+                  </p>
+              </article>
+      
+          </section>
+          <footer id="piedDePage">
+              <p>Conçu et realisé par padane developpeur front-end contact <a href="mailto:padaneamet@hotmail.com">padaneamet@hotmail.com</a></p>
+     
+      </footer>
+     </main>
+        
+       <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
